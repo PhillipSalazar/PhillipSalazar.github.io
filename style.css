@@ -1,0 +1,61 @@
+body {
+	background-color: grey;
+}
+
+.col-sm-3 {
+	background: white;
+	
+}
+
+.col-sm-6 {
+	
+	background: lightblue;
+	border-style: solid;
+	border-width:2px;
+	border-color: lightblue;
+	border-radius: 5px;
+}
+
+.col-sm-12 {
+	height: 50px;
+	
+}
+.col-sm-4 {
+	background: lightblue;
+	border-style: solid;
+	border-width:2px;
+	border-color: grey;
+	border-radius: 5px;
+	
+}
+
+.par{
+	margin-left: 20%;
+	
+}
+
+.col-sm-12 {
+	border-top: none;
+	box-shadow: 0px;
+}
+
+
+
+
+h1 {
+	color: grey;
+	margin-left: 33%;
+	display: hidden;
+}
+
+p {
+	color: grey;
+}
+
+h3 {
+	color: grey;
+}
+
+hr {
+	background-color: grey;
+}
