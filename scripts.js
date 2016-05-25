@@ -1,5 +1,5 @@
 $(document).ready(function(){
 
-  $("#pic").animate({left: "45%"}, "slow"); 
-  $("#name").animate({left: "45%"}, "slow");
+  $("#pic").animate({left: "50%"}, "slow");
+  $("#name").animate({left: "50%"}, "slow");
 });
