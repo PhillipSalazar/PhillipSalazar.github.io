@@ -38,22 +38,21 @@ border: 3px solid #000033;
 border-radius: 10px;
 background-color: ;
 
-margin-left: 40%;
+margin-left: -5%;
 margin-top: 3%;
--webkit-user-select: none;
--khtml-user-select: none;
--moz-user-select: none;
--ms-user-select: none;
--o-user-select: none;
-user-select: none;
+
+position: absolute;
+
 }
 
 #name {
   width: 200px;
   border: 3px solid #000033;
   border-radius: 10px;
-  margin-left: 40%;
-  margin-top: 1%;
+  margin-left: -5%;
+  margin-top: 20%;
+
+  position: absolute;
 }
 
 #bod1 {
