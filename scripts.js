@@ -1,5 +1,7 @@
 $(document).ready(function(){
 
-  $("#pic").animate({left: "50%"}, "slow");
-  $("#name").animate({left: "50%"}, "slow");
+
+  $("#name").animate({left: "22em"}, "slow");
+
+ $("#name").animate({fontSize: "4em"}, "slow");
 });
