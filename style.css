@@ -6,8 +6,18 @@ h1 {
   color: white;
 }
 
+h2 {
+    color: white;
+}
+
+h3 {
+    color: white;
+}
+
 article {
   color: white;
+  margin-left: 5%;
+  font-size: 1.5em;
 }
 
 a {
@@ -18,7 +28,10 @@ p {
   margin-left: 25%;
 }
 
-
+li {
+  display: inline-block;
+  margin-left: 10%;
+}
 
 #top {
   height: 325px;
