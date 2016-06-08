@@ -112,8 +112,7 @@ $(document).ready(function(){
   });
   // header
     $('h1').animate({top: '3em'});
-    $('h1').animate({top: '-1em'});
-    $('h1').animate({top: '3em'});
+
     $("h1").click(function(){
         $(this).hide();
     });
