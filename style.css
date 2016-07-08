@@ -48,13 +48,29 @@ li {
 
 #name {
 
-  color: #000033;
+color: #000033;
 
-  margin-left: -10em;
+  margin-left: 10em;
   margin-top: 2em;
-
-  position: absolute;
+  -webkit-animation-name: namez;
+    -webkit-animation-duration: 8s;
+    animation-name: namez;
+    animation-duration: 8s;
 }
+    @-webkit-keyframes namez {
+    0%   {color: #000033;}
+    25%  {color: #000099;}
+    50%  {color: #e6e6ff;}
+    100% {color: #000099;}
+}
+
+    @keyframes namez {
+    0%   {color: #000033;}
+    25%  {color: #000099;}
+    50%  {color: #e6e6ff;}
+    100% {color: #000099;}
+}
+
 
 #bod1 {
   background-color: #000033;
