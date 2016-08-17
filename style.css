@@ -34,7 +34,7 @@ li {
 }
 
 #top {
-  height: 325px;
+  height: 10em;
 
   background-color: white;
 
@@ -50,7 +50,7 @@ li {
 
 color: #000033;
 
-  margin-left: 10em;
+
   margin-top: 2em;
   -webkit-animation-name: namez;
     -webkit-animation-duration: 8s;
