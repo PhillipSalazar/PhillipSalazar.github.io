@@ -11,7 +11,7 @@ h2 {
 }
 
 h3 {
-    color: white;
+  color:#000033;
 }
 
 article {
@@ -21,7 +21,7 @@ article {
 }
 
 a {
-  color: white;
+  color:white;
 }
 
 p {
@@ -31,6 +31,7 @@ p {
 li {
   display: inline-block;
   margin-left: 5%;
+  color:#000033;
 }
 
 #top {
@@ -74,6 +75,17 @@ color: #000033;
 
 #bod1 {
   background-color: #000033;
+}
+
+#row2 {
+  background-color: white;
+  height: 18em;
+
+}
+
+#proj {
+  color:  #000033;
+  margin-left: 2em;
 }
 
 .bacon {
