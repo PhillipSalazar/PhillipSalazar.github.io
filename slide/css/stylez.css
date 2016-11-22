@@ -1,0 +1,31 @@
+
+
+
+#titlez {
+  font-family: monospace;
+}
+
+#tit {
+  position: absolute;
+  font-size: 20px;
+  margin-left: -5%;
+  margin-top: 28%;
+  font-weight: 5px;
+  font-family: monospace;
+}
+
+#can {
+  position: absolute;;
+  z-index: -1;
+  margin-left: -60%;
+  width: 120%;
+  height: 110%;
+}
+
+h2 {
+  color: red;
+}
+
+.dis {
+  color: red;
+}
