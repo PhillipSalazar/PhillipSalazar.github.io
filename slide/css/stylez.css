@@ -1,8 +1,33 @@
 
+ @font-face { font-family: blox; src: url('Blox2.ttf'); }
+ @font-face { font-family: pixel; src: url('Pixel.ttf'); }
+  @font-face { font-family: stone; src: url('stone_era_pixels.ttf'); }
+h2 {
+  color: red;
 
+}
+
+h3 {
+font-family: stone !important;
+}
+
+ul {
+  display: inline;
+  list-style-type: none;
+
+}
+li {
+  float: left;
+  margin-left: 15%;
+  font-family: pixel !important;
+}
+
+p {
+  font-family: pixel !important;
+}
 
 #titlez {
-  font-family: monospace;
+  font-family: blox !important;
 }
 
 #tit {
@@ -22,8 +47,8 @@
   height: 110%;
 }
 
-h2 {
-  color: red;
+.top4 {
+  margin-left: -5em;
 }
 
 .dis {
@@ -38,4 +63,12 @@ h2 {
 
 .blink {
   text-shadow: 0px 0px 20px #ff0000 !important;
+}
+
+.red {
+  color: red !important;
+}
+
+.green {
+  color: green !important;
 }
