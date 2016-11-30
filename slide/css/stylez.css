@@ -72,3 +72,12 @@ p {
 .green {
   color: green !important;
 }
+
+.lang {
+  width: 150px;
+
+}
+
+.tools {
+  width: 150px;
+}
