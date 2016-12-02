@@ -4,8 +4,8 @@ Reveal.initialize();
 
 
 $(document).ready(function(){
-
-
+var $width = $( window ).width();
+console.log($width);
 setInterval(function() {
   $(".cat").toggleClass("blink").delay(500);
   $(".cat").toggleClass("lolz");
@@ -50,4 +50,10 @@ document.getElementById('web').addEventListener('click', function(){
 document.getElementById('par2').innerHTML = "Ruby on Rails"+"<br>" + "<br>" + "Ruby on Rails, or simply Rails, is a server-side web application framework written in Ruby under the MIT License. Rails is a model–view–controller framework, providing default structures for a database, a web service, and web pages.";
 
 });
+/*
+if ($width < 1000){
+
+}
+*/
+
 });

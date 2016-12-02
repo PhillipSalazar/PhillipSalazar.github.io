@@ -93,7 +93,33 @@ p {
 
 /* the css for the text box */
 
+@media screen and (max-width: 800px) {
+  #box {
+  border: 2px solid white;
+  width: 900px;
+  border-radius: 10px;
+  margin-left: -7% !important;
+  }
 
+  #topbox {
+  height: 160px;
+  border: 2px solid white;
+
+  }
+
+  #bottombox {
+  height: 370px;
+  border: 2px solid white;
+
+  }
+
+  .rowz {
+
+    width: 396.5px;
+    border: 1px solid black;
+    height: 50px;
+  }
+}
 
 .party {
     margin-left: 35%;
