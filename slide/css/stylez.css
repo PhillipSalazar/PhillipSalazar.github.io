@@ -40,13 +40,24 @@ p {
 }
 
 #can {
-  position: absolute !important;
+  position: absolute;
   z-index: -1;
   margin-left: -65%;
-  width: 120% !important;
-  height: 110% !important;
+  width: 120%;
+  height: 110%;
 }
 
+@media only screen and (min-width: 1500px) {
+  #can {
+    position: absolute;
+    z-index: -1;
+    margin-left: -65%;
+    width: 1200px !important;
+    height: 800px !important;
+    margin-top: -5% !important;
+
+  }
+}
 
 
 .dis {
