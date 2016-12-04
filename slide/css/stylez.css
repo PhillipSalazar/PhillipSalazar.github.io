@@ -47,9 +47,7 @@ p {
   height: 110%;
 }
 
-.top4 {
-  margin-left: -5em;
-}
+
 
 .dis {
   color: red;
@@ -65,12 +63,54 @@ p {
   text-shadow: 0px 0px 20px #ff0000 !important;
 }
 
-.red {
-  color: red !important;
+.color {
+    color: red;
+   -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+   -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+   animation-name: example;
+   animation-duration: 8s;
+   animation-iteration-count: infinite;
 }
 
-.green {
-  color: green !important;
+@keyframes example {
+    0%   {color: purple;}
+    20%  {color: yellow;}
+    40%  {color: blue;}
+    60% {color: green;}
+    80% {color: cyan;}
+    100% {color: magenta;}
+}
+
+.topz {
+  width: 100%;
+
+}
+
+.top {
+  float: left;
+
+}
+
+.bottomz {
+  width: 100%;
+}
+
+#cake1 {
+  margin-left: 3% !important;
+}
+
+#cake2 {
+  position: absolute;
+  margin-left: 97% !important;
+}
+
+#cake3 {
+margin-left: 3% !important;
+}
+
+#cake4 {
+  position: absolute;
+  margin-left: 97% !important;
 }
 
 .lang {
