@@ -101,25 +101,10 @@ p {
   margin-left: -7% !important;
   }
 
-  #topbox {
-  height: 160px;
-  border: 2px solid white;
-
-  }
-
-  #bottombox {
-  height: 370px;
-  border: 2px solid white;
-
-  }
-
-  .rowz {
-
-    width: 396.5px;
-    border: 1px solid black;
-    height: 50px;
-  }
 }
+
+
+
 
 .party {
     margin-left: 35%;
@@ -129,7 +114,7 @@ p {
 
 #box {
 border: 2px solid white;
-width: 1200px;
+width: 1000px;
 border-radius: 10px;
 margin-left: -7% !important;
 }
@@ -141,7 +126,7 @@ border: 2px solid white;
 }
 
 #bottombox {
-height: 270px;
+height: 350px;
 border: 2px solid white;
 
 }
@@ -162,7 +147,7 @@ border: 2px solid white;
 
 .rowz {
   float: left;
-  width: 396.5px;
+  width: 296.5px;
   border: 1px solid black;
   height: 50px;
 }
