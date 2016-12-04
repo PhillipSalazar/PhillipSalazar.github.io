@@ -147,5 +147,9 @@ li {
       height: 150px;
     }
 
+    #bodyPar {
+      margin-left: -25%;
+    }
+
 
 }
