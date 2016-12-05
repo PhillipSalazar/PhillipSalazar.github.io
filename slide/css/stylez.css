@@ -43,7 +43,19 @@ p {
   height: 110%;
 }
 
-@media only screen and (min-width: 1500px) {
+@media only screen and (min-width: 1300px) {
+  #can {
+    position: absolute;
+    z-index: -1;
+    margin-left: -65%;
+    width: 900px !important;
+    height: 600px !important;
+    margin-top: -5% !important;
+
+  }
+}
+
+@media only screen and (min-width: 1300px) {
   #can {
     position: absolute;
     z-index: -1;
@@ -54,8 +66,6 @@ p {
 
   }
 }
-
-
 .dis {
   color: red;
 }
