@@ -11,13 +11,9 @@ h3 {
 font-family: stone !important;
 }
 
-ul {
-  display: inline;
-  list-style-type: none;
 
-}
 li {
-  float: left;
+
   margin-left: 15%;
   font-family: pixel !important;
 }
